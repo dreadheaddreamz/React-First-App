@@ -1,10 +1,14 @@
 
 import './App.css';
+import InputArea from './components/InputArea';
 
 function App() {
   return (
-    <div className="App">
-  <h1>Hello World!</h1>
+    <div className="container">
+      <div className="heading">
+        <h1>To-Do List</h1>
+      </div>
+      <InputArea />
     </div>
   );
 }
